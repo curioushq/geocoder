@@ -23,6 +23,7 @@ module Geocoder
       [
         :esri,
         :google,
+        :data_science,
         :google_premier,
         :yahoo,
         :bing,

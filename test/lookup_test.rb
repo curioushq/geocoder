@@ -111,6 +111,7 @@ class LookupTest < Test::Unit::TestCase
   end
 
   def test_handle
+    assert_equal :data_science, Geocoder::Lookup::DataScience.new.handle
     assert_equal :google, Geocoder::Lookup::Google.new.handle
     assert_equal :geocoder_ca, Geocoder::Lookup::GeocoderCa.new.handle
   end

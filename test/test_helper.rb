@@ -112,6 +112,13 @@ module Geocoder
       end
     end
 
+    class DataScience
+      private
+      def fixture_prefix
+        "google"
+      end
+    end
+
     class GooglePremier
       private
       def fixture_prefix
